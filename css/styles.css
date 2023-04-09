@@ -272,6 +272,41 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/**
+  |============================
+  | brand
+  |============================
+*/
+.section-brand{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.list-brand{
+  display: flex;
+  gap: 24px;
+}
+.brand-item{
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.link-brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+
+  border: 1px solid #8e8f99; 
+  border-radius: 4px;
+}
+.link-brand:hover,
+.link-brand:focus{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.brand-icon{
+  fill: currentColor;
+  
+}
 /* футер */
 .footer {
   
@@ -311,8 +346,8 @@ img {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-.item-portfolio:hover,
-.item-portfolio:focus{
+.border:hover,
+.border:focus{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .item-portfolio:nth-child(3n) {
@@ -371,7 +406,7 @@ img {
 border-radius: 4px;
 }
 .strategy-icon {
-  
+
 }
 /**
   |============================
@@ -384,6 +419,8 @@ border-radius: 4px;
   gap: 24px;
 }
 .team-icon{
+  width: 40px;
+  height: 40px;
   fill: #f4f4fd;
 }
 .link-icon{
@@ -425,7 +462,20 @@ color: #FFFFFF;
 .social-footer{
 
 }
+.link-footer{
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.link-footer:hover,
+.link-footer:focus{
+  background-color:#31d0aa;
+}
 .footer-icon{
-  width: 40px;
-  height: 40px;
+  width:40px;
+  height:40px;
+  fill: #f4f4fd;
 }
