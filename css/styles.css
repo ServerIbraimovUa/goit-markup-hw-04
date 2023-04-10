@@ -422,17 +422,17 @@ border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
   border-radius: 50%;
 }
 .link-icon:hover,
 .link-icon:focus{
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .team-icon{
-  width: 40px;
-  height: 40px;
-  fill: currentColor;
+  fill: #F4F4FD;
 }
 /**
   |============================
@@ -464,19 +464,22 @@ color: #FFFFFF;
 }
 
 .link-footer{
- 
-  color: #4d5ae5;
-
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 40px;
+ width: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   
 }
 .link-footer:hover,
 .link-footer:focus{
-  color: #31d0aa;
+  background-color: #31d0aa;
   
 }
 .footer-icon{
-  width: 40px;
-  height: 40px;
-  fill: currentColor;
+ 
+  fill:#F4F4FD;
 
 }
